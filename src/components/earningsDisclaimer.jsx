@@ -140,7 +140,7 @@ export const EarningsDisclaimer = () => {
           bears no relationship to objective standards.
         </p>
         <a href="/" class="back-button">
-          Back to Coaching Goodness
+          Back to Branding Goodness
         </a>
       </div>
     </React.Fragment>

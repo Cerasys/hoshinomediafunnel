@@ -3,13 +3,13 @@ import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import Lander from "./components/lander";
+import Lander from "./components/old lander/lander";
 import ScrollToAnchor from "./components/util/scroll";
 import { Privacy } from "./components/privacy";
 import { Terms } from "./components/terms";
-import BookCall from "./components/bookCall";
 import ThankYou from "./components/thankYou";
 import { EarningsDisclaimer } from "./components/earningsDisclaimer";
+import Apply from "./components/apply";
 
 // import ReactPixel from "react-facebook-pixel";
 
@@ -31,8 +31,8 @@ const App = () => {
     <div>
       <ScrollToAnchor />
       <Routes>
-        <Route path="/" element={<Lander />}></Route>
-        <Route exact path="/book-a-call" element={<BookCall />}></Route>
+        <Route path="/" element={<Apply />}></Route>
+        {/* <Route exact path="/book-a-call" element={<BookCall />}></Route> */}
         <Route exact path="/thank-you" element={<ThankYou />}></Route>
 
         <Route exact path="/privacy" element={<Privacy />}></Route>

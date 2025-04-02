@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Footer from "./footer";
+import Footer from "../footer";
 import axios from "axios";
 import { v4 as uuidv4 } from "uuid"; // Import the uuid library
 import CryptoJS from "crypto-js"; // Import the crypto-js module
