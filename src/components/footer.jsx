@@ -31,7 +31,7 @@ const Footer = () => {
         <div className="col-inner bgCover noBorder borderSolid border3px cornersAll radius0 shadow0 P0-top P0-bottom P0H noTopMargin">
           {/* Main Footer Text */}
           <div
-            style={{ marginTop: "40px", outline: "none", cursor: "pointer" }}
+            style={{ marginTop: "10px", outline: "none", cursor: "pointer" }}
             className="de elHeadlineWrapper ui-droppable de-editable"
             id="headline-94108"
             data-de-type="headline"
@@ -52,7 +52,7 @@ const Footer = () => {
               data-bold="inherit"
               contentEditable="false"
             >
-              © 2024 Hoshino Media
+              © 2025 Hoshino Media
               <div>All rights reserved</div>
             </div>
           </div>
@@ -83,16 +83,14 @@ const Footer = () => {
             >
               Earnings Disclaimer &amp; Income Claims:
               <div>
-                Starting and running an online coaching course is NOT a
-                get-rich-quick scheme. It requires a lot of hard work and
-                dedication to see results. Success is not guaranteed, as there
-                are many factors at play. Hoshino Media does not guarantee or
-                promise results, as outcomes vary from person to person.
+                Starting and running a fashion brand is NOT a get-rich-quick
+                scheme. It requires a lot of hard work and dedication to see
+                results. Success is not guaranteed, as there are many factors at
+                play.
               </div>
             </div>
           </div>
 
-          {/* Facebook Disclaimer */}
           <div
             style={{ marginTop: "20px", outline: "none", cursor: "pointer" }}
             className="de elHeadlineWrapper ui-droppable de-editable"
@@ -106,20 +104,6 @@ const Footer = () => {
             data-delay="500"
             aria-disabled="false"
           >
-            <div
-              className="ne elHeadline lh3 elMargin0 elBGStyle0 hsTextShadow0 hsSize18 mfs_10"
-              style={{
-                textAlign: "center",
-                color: "rgba(15, 15, 15, 0.31)",
-                fontSize: "12px",
-              }}
-              data-bold="inherit"
-              contentEditable="false"
-            >
-              This site is not a part of the Facebook website or Facebook Inc.
-              Additionally, this site is NOT endorsed by Facebook in any way.
-              FACEBOOK is a trademark of FACEBOOK, Inc.
-            </div>
             {/* Legal Links Styled as Text (No Button Style) */}
             <div
               style={{
@@ -151,17 +135,6 @@ const Footer = () => {
                 >
                   Terms of Service
                 </Link>{" "}
-                |{" "}
-                <Link
-                  to="/earnings-disclaimer"
-                  style={{
-                    color: "rgba(15, 15, 15, 0.31)", // Matching footer text color
-                    textDecoration: "none", // Removing underline
-                    fontSize: "12px", // Matching text size
-                  }}
-                >
-                  Earnings Disclaimer
-                </Link>
               </div>
             </div>
           </div>
