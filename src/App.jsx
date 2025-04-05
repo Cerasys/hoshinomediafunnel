@@ -3,11 +3,9 @@ import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import Lander from "./components/old lander/lander";
 import ScrollToAnchor from "./components/util/scroll";
 import { Privacy } from "./components/privacy";
 import { Terms } from "./components/terms";
-import ThankYou from "./components/thankYou";
 import { EarningsDisclaimer } from "./components/earningsDisclaimer";
 import Apply from "./components/apply";
 
@@ -33,7 +31,6 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Apply />}></Route>
         {/* <Route exact path="/book-a-call" element={<BookCall />}></Route> */}
-        <Route exact path="/thank-you" element={<ThankYou />}></Route>
 
         <Route exact path="/privacy" element={<Privacy />}></Route>
         <Route exact path="/terms-of-service" element={<Terms />}></Route>
@@ -44,7 +41,6 @@ const App = () => {
         ></Route>
 
         {/* Catch-all route */}
-        <Route path="*" element={<Lander />} />
       </Routes>
     </div>
   );

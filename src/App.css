@@ -1,5 +1,14 @@
+html,
+body {
+  background-color: #232323;
+}
+
 .buffer {
   margin-top: 7vh;
+}
+
+.buffer iframe {
+  margin-top: 0;
 }
 
 @media screen and (max-width: 400px) {
