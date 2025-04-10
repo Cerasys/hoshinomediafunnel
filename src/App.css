@@ -1,6 +1,10 @@
 html,
 body {
   background-color: #232323;
+  --gray: #155263;
+  --orange-dark: #ff6f3c;
+  --orange-light: #ff9a3c;
+  --yellow: #ffc93c;
 }
 
 .buffer {
