@@ -1,0 +1,153 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  width: 100%;
+}
+
+.header-container {
+  background-color: #1c1917;
+  padding: 1.5rem 0;
+  width: 100%;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 70%; /* Centers the header within 70% width */
+  margin: 0 auto; /* Center the layout */
+}
+
+.logo-container {
+  flex: 1;
+}
+
+.logo-link {
+  display: inline-block;
+}
+
+.logo-img {
+  height: 6rem; /* Maintain logo size */
+  width: auto;
+}
+
+/* Apply Button Styles */
+.apply-container {
+  display: none; /* Hidden by default for mobile screens */
+}
+
+.apply-button {
+  display: inline-block; /* Ensure button is visible */
+  background-color: var(--orange-dark);
+  color: #f5f5f5;
+  padding: 1.2rem 2.4rem; /* Adjust padding for a larger button */
+  font-size: 1.4rem; /* Larger font size */
+  font-weight: 600;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+
+.apply-button:hover {
+  background-color: #f5f5f5;
+  color: var(--orange-dark);
+  text-decoration: none; /* No underline on hover */
+}
+
+.apply-button a {
+  text-decoration: none !important;
+}
+
+.apply-button:hover a {
+  text-decoration: none !important;
+}
+/* Hamburger Button for Mobile */
+.menu-container {
+  display: flex;
+  align-items: center;
+}
+
+.hamburger-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #f5f5f5;
+}
+
+.hamburger-icon {
+  height: 2rem;
+  width: 2rem;
+}
+
+/* Mobile Sidebar */
+.mobile-sidebar {
+  position: fixed;
+  top: 0;
+  right: -100%; /* Start off-screen on the right */
+  width: 250px;
+  height: 100%;
+  background-color: #1c1917;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  z-index: 100;
+  transition: right 0.3s ease-in-out; /* Smooth slide-in */
+}
+
+.mobile-sidebar.open {
+  right: 0; /* Slide-in effect */
+}
+
+.close-sidebar {
+  background: none;
+  border: none;
+  color: #f5f5f5;
+  font-size: 2rem;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.mobile-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.mobile-nav-link {
+  color: #f5f5f5;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.mobile-nav-link:hover {
+  color: var(--orange-dark);
+}
+
+/* Responsive Styles */
+@media (min-width: 1024px) {
+  /* Ensure apply button is visible on desktop */
+  .apply-container {
+    display: flex;
+  }
+
+  /* Hide hamburger button on desktop */
+  .hamburger-button {
+    display: none;
+  }
+
+  /* Hide sidebar on desktop */
+  .mobile-sidebar {
+    display: none;
+  }
+}
