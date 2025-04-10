@@ -9,7 +9,7 @@ const Calendly = () => {
           <div>
             <div
               class="calendly-inline-widget"
-              data-url="https://calendly.com/nathanblee/rei"
+              data-url="https://calendly.com/nathanblee/organic-bookings"
               style={{ minWidth: "320px", height: "100%" }}
             ></div>
             <script

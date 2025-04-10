@@ -7,7 +7,9 @@ import ScrollToAnchor from "./components/util/scroll";
 import { Privacy } from "./components/privacy";
 import { Terms } from "./components/terms";
 import { EarningsDisclaimer } from "./components/earningsDisclaimer";
-import Apply from "./components/apply";
+import Header from "./components/header";
+import ApplyCalendly from "./components/applyCalendly";
+import LandingPage from "./components/lander";
 
 // import ReactPixel from "react-facebook-pixel";
 
@@ -17,19 +19,12 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 });
 
 const App = () => {
-  // useEffect(() => {
-  //   const options = {
-  //     autoConfig: true, // set pixel's autoConfig
-  //     debug: false, // enable logs
-  //   };
-  //   ReactPixel.init("544708918525106", options);
-  // }, []);
-
   return (
     <div>
       <ScrollToAnchor />
+      <Header />
       <Routes>
-        <Route path="/" element={<Apply />}></Route>
+        <Route path="/apply" element={<ApplyCalendly />}></Route>
         {/* <Route exact path="/book-a-call" element={<BookCall />}></Route> */}
 
         <Route exact path="/privacy" element={<Privacy />}></Route>
@@ -39,6 +34,7 @@ const App = () => {
           path="/earnings-disclaimer"
           element={<EarningsDisclaimer />}
         ></Route>
+        <Route path="/*" element={<LandingPage />}></Route>
 
         {/* Catch-all route */}
       </Routes>
