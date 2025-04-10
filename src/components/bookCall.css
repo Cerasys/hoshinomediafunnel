@@ -1,0 +1,99 @@
+/* General Styles */
+.bookcall-background {
+  text-align: center;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  min-width: 100vw;
+  font-family: Poppins, sans-serif;
+  color: black;
+}
+
+.callout {
+  max-width: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-attachment: fixed;
+}
+
+/* Heading Styles */
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: white;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+h3 u {
+  text-decoration: underline;
+}
+
+/* Disclaimer Styling */
+b {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin: 20px 0;
+}
+
+/* Calendly Widget Styles */
+.calendly-inline-widget {
+  min-width: 320px;
+  height: 900px;
+  border: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .bookcall-background {
+    background-color: #f5f5f5;
+    background-image: none;
+    padding-top: 10px;
+  }
+
+  h1 {
+    font-size: 28px;
+    color: black;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  b {
+    font-size: 16px;
+    color: black;
+  }
+
+  .calendly-inline-widget {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  b {
+    font-size: 14px;
+  }
+
+  .calendly-inline-widget {
+    height: 100vh;
+  }
+}
