@@ -1,0 +1,27 @@
+#testimonials {
+  padding: 100px 0;
+  background: #f6f6f6;
+}
+
+#testimonials i {
+  color: #e6e6e6;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.testimonial {
+  position: relative;
+  padding: 20px;
+}
+
+.slack-screenshots img {
+  height: 300px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .slack-screenshots img {
+    height: 200px;
+  }
+}
