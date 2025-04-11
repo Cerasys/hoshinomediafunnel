@@ -1,4 +1,8 @@
 /* General Styles */
+.lander-background {
+  padding-top: 9rem;
+}
+
 .bookcall-background {
   text-align: center;
   margin: 0 auto;

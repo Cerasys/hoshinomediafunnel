@@ -15,6 +15,7 @@ body {
   background-color: #1c1917;
   padding: 1.5rem 0;
   width: 100%;
+  position: fixed;
 }
 
 .nav-container {
