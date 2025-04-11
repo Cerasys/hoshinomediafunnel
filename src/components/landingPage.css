@@ -37,6 +37,9 @@
   line-height: 1.8;
   font-weight: 600;
   margin-bottom: 2rem;
+
+  width: 80%;
+  margin: 10px auto;
 }
 
 .highlight {
@@ -64,6 +67,7 @@
 
 .partner-section {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -79,7 +83,7 @@
 }
 
 .partner {
-  flex: 1 0 33%;
+  flex: 0 10 33%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,7 +121,7 @@
 /* Responsive tweaks */
 @media (max-width: 600px) {
   .headline {
-    font-size: 36px;
+    font-size: 44px;
   }
 
   .cta-button {
@@ -135,5 +139,9 @@
 
   .partner {
     flex: 1 0 40%;
+  }
+
+  .mission-statement {
+    font-size: 1.7rem;
   }
 }
