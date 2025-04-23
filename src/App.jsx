@@ -8,8 +8,8 @@ import { Privacy } from "./components/privacy";
 import { Terms } from "./components/terms";
 import { EarningsDisclaimer } from "./components/earningsDisclaimer";
 import Header from "./components/header";
-import ApplyCalendly from "./components/applyCalendly";
 import LandingPage from "./components/lander";
+import ApplyQuilform from "./components/applyQuilform";
 
 // import ReactPixel from "react-facebook-pixel";
 
@@ -24,7 +24,7 @@ const App = () => {
       <ScrollToAnchor />
       <Header />
       <Routes>
-        <Route path="/apply" element={<ApplyCalendly />}></Route>
+        <Route path="/apply" element={<ApplyQuilform />}></Route>
         {/* <Route exact path="/book-a-call" element={<BookCall />}></Route> */}
 
         <Route exact path="/privacy" element={<Privacy />}></Route>

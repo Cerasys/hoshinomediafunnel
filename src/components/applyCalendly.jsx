@@ -13,7 +13,7 @@ const ApplyCalendly = () => {
       // Initialize Calendly widget after script is loaded
       if (window.Calendly) {
         window.Calendly.initInlineWidget({
-          url: "https://calendly.com/nathanblee/organic-bookings?primary_color=ff6f3c",
+          url: "https://calendly.com/nathanblee/bookings?primary_color=ff6f3c",
           parentElement: document.querySelector(".calendly-inline-widget"),
         });
       }
