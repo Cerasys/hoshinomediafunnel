@@ -9,13 +9,11 @@ const LandingPage = () => {
       <div className="overlay">
         <div className="container brand-section">
           <h1 className="headline">
-            Tell <span className="highlight">Stories</span> the World{" "}
-            <span className="highlight">Remembers</span>
+            Where <span className="highlight">Creators</span> Can Tell Their
+            <span className="highlight"> Stories</span>
           </h1>
           <div className="row">
-            <p className="mission-statement">
-              ...Without Having To Pitch Yourself to Corporations 🤪✌️
-            </p>
+            <p className="mission-statement">...Without Selling Out 🤪✌️</p>
             <br />
             <a href="/apply" className="cta-button">
               Apply Now
