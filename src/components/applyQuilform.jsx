@@ -4,7 +4,7 @@ import "./applyQuilform.css"; // Import the CSS file
 
 const ApplyQuilform = () => {
   useEffect(() => {
-    document.title = "Brand Bootcamp";
+    document.title = "Creator Application";
   }, []);
 
   return (
