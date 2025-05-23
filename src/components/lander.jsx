@@ -9,7 +9,7 @@ const LandingPage = () => {
       <div className="overlay">
         <div className="container brand-section">
           <br />
-          <h4>influencer marketingHighlights</h4>
+          <h4>influencer marketing...</h4>
 
           <h1 className="headline">
             Where <span className="highlight">Integrity</span> Meets
