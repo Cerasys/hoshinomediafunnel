@@ -8,12 +8,18 @@ const LandingPage = () => {
     <div className="intro">
       <div className="overlay">
         <div className="container brand-section">
+          <br />
+          <h4>influencer marketing ...</h4>
+
           <h1 className="headline">
-            Where <span className="highlight">Creators</span> Can Tell Their
-            <span className="highlight"> Stories</span>
+            Where <span className="highlight">Integrity</span> Meets
+            <span className="highlight"> Storytelling</span>
           </h1>
           <div className="row">
-            <p className="mission-statement">...Without Selling Out 🤪✌️</p>
+            <p className="mission-statement">
+              We connect high-integrity creators with brands that value depth,
+              curiosity, and storytelling
+            </p>
             <br />
             <a href="/apply" className="cta-button">
               Apply Now
