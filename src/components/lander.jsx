@@ -9,7 +9,7 @@ const LandingPage = () => {
       <div className="overlay">
         <div className="container brand-section">
           <br />
-          <h4>influencer marketing ...</h4>
+          <h4>influencer marketingHighlights</h4>
 
           <h1 className="headline">
             Where <span className="highlight">Integrity</span> Meets
@@ -19,6 +19,8 @@ const LandingPage = () => {
             <p className="mission-statement">
               We connect high-integrity creators with brands that value depth,
               curiosity, and storytelling
+              <br />
+              <i> So you don't have to sell out </i>🤪✌️
             </p>
             <br />
             <a href="/apply" className="cta-button">
